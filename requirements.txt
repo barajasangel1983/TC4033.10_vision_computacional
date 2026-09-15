@@ -1,0 +1,39 @@
+# TC4033.10 — Vision computacional para imágenes y video
+# Core CV/DL stack
+
+# Jupyter
+jupyter
+ipykernel
+jupyterlab
+nbformat
+
+# OpenCV / image processing
+opencv-python
+opencv-contrib-python
+numpy
+scipy
+Pillow
+matplotlib
+
+# Deep learning (PyTorch — instalarse separado con CUDA, ver README)
+torch
+torchvision
+
+# Detección / segmentación
+ultralytics
+
+# Análisis de imágenes
+scikit-image
+
+# Data
+pandas
+
+# Document generation
+python-docx
+
+# Testing
+pytest
+
+# Utilities
+python-dotenv
+rich

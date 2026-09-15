@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Conda
+.env
+env/
+venv/
+.venv/
+.envrc
+
+# Data (keep large files out) — images, video, tabular
+data/*.csv
+data/*.json
+data/*.parquet
+data/*.txt
+data/*.dat
+data/*.png
+data/*.jpg
+data/*.jpeg
+data/*.webp
+data/*.bmp
+data/*.tiff
+data/*.mp4
+data/*.avi
+data/*.mov
+data/*.mkv
+!data/README.md
+
+# Models (keep checkpoints out)
+models/*.bin
+models/*.pth
+models/*.pt
+models/*.h5
+models/*.safetensors
+models/*.pkl
+models/*.onnx
+models/*.engine
+models/*.tflite
+!models/README.md
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Env vars
+.env

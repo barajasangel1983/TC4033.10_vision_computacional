@@ -59,6 +59,19 @@ cp .env.example .env   # (solo si el curso requiere tokens externos)
 
 ---
 
+## Entornos
+
+| Entorno | Python | Torch | Uso |
+|---------|--------|-------|-----|
+| **Laptop (Alienware, RTX 5080)** | 3.11 | CUDA cu124 | Compute principal: YOLO, PyTorch, entrenamiento |
+| **VPS (srv1393985)** | 3.11 | CPU | CV clásico (OpenCV), data munging, doc gen, revisión de código; versión final del curso |
+
+- **Python:** fijado en **3.11** (`.python-version` → `3.11.9`) para compatibilidad laptop ↔ VPS.
+- **Laptop:** `pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124`
+- **VPS:** sin GPU → `pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu`
+
+---
+
 ## Proyecto por Etapas
 
 _Pendiente — completar al recibir la forma de trabajo del curso._
